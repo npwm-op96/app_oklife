@@ -1,8 +1,13 @@
 <template>
   <div>
+  <v-col>
+      <Banner/>
+  </v-col>
+
     <Gallary />
 
     <v-row class="text-center">
+    
       <v-col class="mt-10" cols="12"><span><h1>SERVICE</h1></span> </v-col>
 
       <v-col class="mb-4"> </v-col>
@@ -24,11 +29,13 @@
 
 <script>
 import Gallary from "./Gallary";
+import Banner from "./Banner";
 
 export default {
   name: "Layout",
   components: {
     Gallary,
+    Banner
   },
 };
 </script>
