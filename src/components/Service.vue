@@ -1,28 +1,31 @@
 <template>
-<v-container>
-<v-row class="d-flex justify-center">
-    <v-col>
-    <v-card height="500" width="400" color="primary"
-    ></v-card>
-    </v-col>
-    <v-col>
-    <v-card height="500" width="400" color="primary"
-    ></v-card>
-    </v-col>
-    <v-col>
-    <v-card height="500" width="400" color="primary"
-    ></v-card>
-    </v-col>
-</v-row>
-</v-container>
-
-    
+<div class="row">
+  <v-col class="d-flex justify-center ">
+         <v-card height="500" width="500" color="">
+        <v-card-text>
+        <h1>ASSURANCE</h1>
+        </v-card-text>
+    </v-card>
+  </v-col>
+    <v-col class="d-flex justify-center ">
+         <v-card height="500" width="500" color="">
+    </v-card>
+  </v-col>
+      <v-col class="d-flex justify-center ">
+         <v-card height="500" width="500" color="">
+    </v-card>
+  </v-col>
+  
+  </div>
 </template>
 <script>
 
 export default {
     name:"Service",
     data:()=>{
+        return{
+
+        }
 
     }  
 }
