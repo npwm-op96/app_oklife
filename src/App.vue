@@ -20,30 +20,29 @@
         <v-col> HOME</v-col>
         <v-col> ABOUNT</v-col>
         <v-col> CONTACT</v-col>
-        <v-col><b color="blue" class="color-bar">|</b> </v-col>
 
-        <v-col><v-icon>mdi-account</v-icon></v-col>
-        <v-col>
-          
-          Login
-        </v-col>
+        <v-col><b color="blue" class="color-bar">|</b> <v-icon>mdi-account-circle</v-icon>Login</v-col>
       </v-col>
     </v-app-bar>
 
     <v-main>
       <Layout />
     </v-main>
+    <Footer/>
   </v-app>
 </template>
 
 <script>
 import Layout from "./components/Layout";
+import Footer from "./components/Footer";
+
 
 export default {
   name: "App",
 
   components: {
     Layout,
+    Footer
   },
 
   data: () => ({

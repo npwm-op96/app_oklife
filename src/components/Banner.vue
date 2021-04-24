@@ -1,6 +1,6 @@
 <template>
   <v-col class="d-flex justify-center main-banner ">
-    <v-card width="95%" height="160px" color="white" class="banner-color">
+    <v-card width="95%" height="180px" color="white" class="banner-color">
       <v-col class="d-flex">
         <v-col class="text-left white--text" cols="6">
           <v-col><h1 class="main-header">มั่งคั่งและมั่นคง <br>
