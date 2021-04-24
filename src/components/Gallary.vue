@@ -15,13 +15,10 @@
       return {
         items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: './image/wealth.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: './image/payment.jpg',
           },
         //   {
         //     src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
