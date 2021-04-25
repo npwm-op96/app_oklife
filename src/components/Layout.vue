@@ -15,11 +15,12 @@
       <v-col class="mb-4"> </v-col>
 
       <v-col class="mb-5" cols="12">
-        <v-row justify="center"> </v-row>
+        <v-row justify="center"> <h1>หลักการง่าย ๆ ในการใช้ชีวิต</h1></v-row>
       </v-col>
-
       <v-col class="mb-5" cols="12">
-        <v-row justify="center"> </v-row>
+        <v-row justify="center"> 
+        <Function/>
+        </v-row>
       </v-col>
 
       <v-col class="mb-5" cols="12">
@@ -33,6 +34,8 @@
 import Gallary from "./Gallary";
 import Banner from "./Banner";
 import Service from "./Service";
+import Function from "./Function";
+
 
 export default {
   name: "Layout",
@@ -40,6 +43,7 @@ export default {
     Gallary,
     Banner,
     Service,
+    Function
   },
 };
 </script>
