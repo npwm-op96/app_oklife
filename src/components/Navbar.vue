@@ -1,18 +1,17 @@
 <template>
     
-    <v-app-bar height="80" app flat color="white" light>
-      <div class="d-flex align-center">
-        <v-img
+    <v-app-bar height="100" class="banner-color" color="white" app flat light>
+      <div class="mt-3 d-flex align-center">
+        <v-img 
           alt="Vuetify Logo"
-          class="shrink"
+          class="shrink mt-5 mb-5"
           contain
-          src="image/logo.png"
+          src="image/MAXWEALTH.png"
           transition="scale-transition"
-          width="60"
+          width="100"
         />
-        <div ><b class="font-navbar head-font">OK ไลฟ์</b></div>
+        <div ><b class="font-navbar head-font">OK ไลฟ์ PLANNING</b></div>
       </div>
-
       <v-spacer></v-spacer>
             <v-spacer></v-spacer>
 
@@ -26,3 +25,4 @@
     </v-app-bar>
 
 </template>
+sty

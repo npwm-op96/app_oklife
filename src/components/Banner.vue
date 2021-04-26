@@ -1,13 +1,13 @@
 <template>
-  <v-col class="d-flex justify-center main-banner">
-    <v-card  width="95%" height="200px" color="white" class="banner-color">
+  <v-col class="d-flex justify-center main-banner banner-color">
       <v-col class="d-flex">
         <v-col class="text-left white--text" cols="6">
           <v-col
-            ><h1 class="main-header">
-              มั่งคั่งและมั่นคง <br />
-              Wealth & Wellness
-            </h1>
+            ><div class="main-font">
+            <p class="ml-5">มั่งคั่งและมั่นคง</p>
+
+               <p class="ml-15 mt-n10">Wealth & Wellness</p>
+            </div>
           </v-col>
         </v-col>
         <v-col cols="2" class="align-self-center">
@@ -29,7 +29,6 @@
           </v-layout>
         </v-col>
       </v-col>
-    </v-card>
   </v-col>
 </template>
 <script>
@@ -43,8 +42,13 @@ export default {
 <style >
 .main-banner {
   position: absolute;
-  top: -20px;
+  top: 10px;
+  left:0;
   z-index: 1;
+}
+.main-font{
+  padding-left: 14%;
+  font-size: 4.5rem;
 }
 
 .btn-register {

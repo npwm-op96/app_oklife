@@ -30,10 +30,16 @@ export default {
 };
 </script>
 <style >
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url(/font/);
+}
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif; /* this was it */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "FC Minimal Regular";
+  src: url(/font/FC-Minimal/FCMinimalRegular.otf);
+
+
   text-align: center;
 }
 .font-navbar {

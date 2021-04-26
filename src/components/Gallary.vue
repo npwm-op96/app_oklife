@@ -29,6 +29,9 @@ export default {
         {
           src: "./image/stock.jpg",
         },
+        {
+          src:"https://i.pinimg.com/originals/c5/3c/9c/c53c9c31952bad45bca4146ac1e91f97.png"
+        }
       ],
     };
   },
